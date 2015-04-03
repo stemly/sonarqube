@@ -25,6 +25,11 @@ import org.sonar.api.server.ws.RailsHandler;
 import org.sonar.api.server.ws.WebService;
 
 public class ServerWs implements WebService {
+//  private final ServerWsAction[] serverWsActions;
+
+  public ServerWs() {
+//    this.serverWsActions = serverWsActions;
+  }
 
   @Override
   public void define(Context context) {
